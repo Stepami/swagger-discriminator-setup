@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>PolymorhicContracts.TypeDiscriminatorSwaggerSetup</PackageId>
+        <PackageId>PolymorphicContracts.TypeDiscriminatorSwaggerSetup</PackageId>
         <Description>Swashbuckle.AspNetCore.SwaggerGen extension to enable type discriminator for polymorphic contracts</Description>
         <Version>1.0.0</Version>
         <Authors>Stepami</Authors>
@@ -13,7 +13,7 @@
         <RepositoryUrl>https://github.com/Stepami/swagger-discriminator-setup</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/Stepami/swagger-discriminator-setup</PackageProjectUrl>
-        <Title>PolymorhicContracts.TypeDiscriminatorSwaggerSetup</Title>
+        <Title>PolymorphicContracts.TypeDiscriminatorSwaggerSetup</Title>
         <PackageLicenseUrl>https://github.com/Stepami/swagger-discriminator-setup/blob/master/LICENCE</PackageLicenseUrl>
         <PackageTags>Swagger Type Discriminator Inheritance Polymorhism SchemaFilter</PackageTags>
     </PropertyGroup>
