@@ -17,6 +17,8 @@ Install package : [https://www.nuget.org/packages/PolymorphicContracts.TypeDiscr
 
 ## Usage
 
+[Sample project example](https://github.com/StefanioHabrArticles/polymorphic-contracts)
+
 In your ASP.NET Core 7 project choose assemblies, that contains hierarchies marked with [`JsonDerivedTypeAttribute`](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0).
 
 List them in `appsettings.json` files as follows:
