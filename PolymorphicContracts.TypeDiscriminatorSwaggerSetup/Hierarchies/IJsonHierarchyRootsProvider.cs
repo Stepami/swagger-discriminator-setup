@@ -21,5 +21,5 @@ internal class JsonHierarchyRootsProvider : IJsonHierarchyRootsProvider
         _assemblies.SelectMany(assembly => Assembly.Load(assembly)
             .GetTypes().Select(type => new JsonHierarchyRoot(
                 type, type.GetCustomAttributes<JsonDerivedTypeAttribute>()
-            )).Where(x => x.Attributes.Any()));
+            )).Where(x => x.Attributes.Any() && x.Type.IsAbstract));
 }
