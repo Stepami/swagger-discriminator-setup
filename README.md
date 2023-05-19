@@ -13,7 +13,7 @@ Install package : [https://www.nuget.org/packages/PolymorphicContracts.TypeDiscr
 ### GitHub
 
 - Clone locally this github repository
-- Build the `PolymorphicContracts.TypeDiscriminatorSwaggerSetup.sln` solution
+- Build the `PolymorphicContracts.TypeDiscriminatorSwaggerSetup.csproj` project
 
 ## Usage
 
@@ -58,4 +58,43 @@ interface IBase
 record DerivedFirst : IBase;
 
 record DerivedSecond : DerivedFirst;
+```
+
+Status:
+
+[![NuGet](https://img.shields.io/nuget/dt/PolymorphicContracts.AutoFixture.svg)](https://www.nuget.org/packages/PolymorphicContracts.AutoFixture/)
+
+# PolymorphicContracts.AutoFixture
+
+## Installation
+
+### NuGet
+
+Install package : [https://www.nuget.org/packages/PolymorphicContracts.AutoFixture](https://www.nuget.org/packages/PolymorphicContracts.AutoFixture).
+
+### GitHub
+
+- Clone locally this github repository
+- Build the `PolymorphicContracts.AutoFixture.csproj` project
+
+## Usage
+
+Let's say you have an hierarchy like this:
+```csharp
+abstract class A { }
+class B : A { }
+class C : A { }
+```
+
+And you want call fixture to create instance of any random derived type like this:
+```csharp
+fixture.Create<A>(); // B or C
+```
+
+Then you can use this package like this:
+```csharp
+fixture.CustomizePolymorphism<A>()
+    .WithDerivedType<B>()
+    .WithDerivedType<C>()
+    .BuildCustomization();
 ```
