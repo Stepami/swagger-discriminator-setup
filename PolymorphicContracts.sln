@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphicContracts.TypeDiscriminatorSwaggerSetup", "PolymorphicContracts.TypeDiscriminatorSwaggerSetup\PolymorphicContracts.TypeDiscriminatorSwaggerSetup.csproj", "{A9352630-F359-4569-96B8-455F87543F02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphicContracts.AutoFixture", "PolymorphicContracts.AutoFixture\PolymorphicContracts.AutoFixture.csproj", "{455B92D6-6CC7-4430-A68E-5E1C1693C323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A9352630-F359-4569-96B8-455F87543F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9352630-F359-4569-96B8-455F87543F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9352630-F359-4569-96B8-455F87543F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455B92D6-6CC7-4430-A68E-5E1C1693C323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455B92D6-6CC7-4430-A68E-5E1C1693C323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455B92D6-6CC7-4430-A68E-5E1C1693C323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455B92D6-6CC7-4430-A68E-5E1C1693C323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
