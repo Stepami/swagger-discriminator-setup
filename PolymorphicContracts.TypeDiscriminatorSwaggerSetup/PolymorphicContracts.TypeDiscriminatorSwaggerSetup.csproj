@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <PackageId>PolymorphicContracts.TypeDiscriminatorSwaggerSetup</PackageId>
         <Description>Swashbuckle.AspNetCore.SwaggerGen extension to enable type discriminator for polymorphic contracts</Description>
-        <Version>1.1.0</Version>
+        <Version>1.1.1</Version>
         <Authors>Stepami</Authors>
         <Company>N/A</Company>
         <Copyright>Copyright © Stepami 2023</Copyright>
